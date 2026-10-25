@@ -1,0 +1,11 @@
+name: SilkSpawners26
+version: '${project.version}'
+main: dev.graygames.silkspawners.SilkSpawnersPlugin
+api-version: '26.1'
+description: ${project.description}
+author: Matt Campos
+
+permissions:
+  silkspawners.pickup:
+    description: Allows picking up mob spawners with a Silk Touch pickaxe.
+    default: true

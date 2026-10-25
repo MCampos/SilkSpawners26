@@ -1,0 +1,17 @@
+# SilkSpawners26 configuration
+# Changes take effect after a server restart.
+
+# true  = only a Netherite Pickaxe with Silk Touch picks up spawners.
+# false = any pickaxe with Silk Touch works.
+require-netherite: true
+
+# Chance (0.0 - 1.0) that a mined spawner drops as an item. 1.0 = always, 0.5 = half the time.
+# When the roll fails the spawner is simply destroyed, as in vanilla.
+drop-chance: 1.0
+
+# Only spawners of these mob types can be picked up. Leave empty for every mob type.
+# Names are Minecraft entity ids, e.g. [zombie, skeleton, cave_spider, blaze].
+allowed-mobs: []
+
+# Players also need the permission "silkspawners.pickup" (granted to everyone by default;
+# revoke it with your permissions plugin to restrict pickup to certain groups).
